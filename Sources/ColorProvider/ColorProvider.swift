@@ -22,7 +22,7 @@ public struct ColorProvider {
     }
     
     /// after 2.0.0
-    static func gray()  -> UIColor {
+    public static func gray()  -> UIColor {
         .gray
     }
 }
