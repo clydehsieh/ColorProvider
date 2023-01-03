@@ -21,8 +21,13 @@ public struct ColorProvider {
         .yellow
     }
     
-    /// after 2.0.0
-    public static func gray()  -> UIColor {
+    /// 3.0.0
+    public static func gray() -> UIColor {
         .gray
+    }
+    
+    /// 3.0.0
+    public static func originColors() -> [UIColor] {
+        [.red, .green, .blue]
     }
 }
