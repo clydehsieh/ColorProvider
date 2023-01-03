@@ -8,7 +8,7 @@ public struct ColorProvider {
     public init() {
     }
     
-    /// before 1.0.0
+    /// ver 1.0.0
     public static func red() -> UIColor {
         .red
     }
@@ -23,12 +23,12 @@ public struct ColorProvider {
         .yellow
     }
     
-    /// 3.0.0
+    /// ver 3.0.0
     public static func gray() -> UIColor {
         .gray
     }
     
-    /// 3.0.0
+    /// ver 3.0.0
     public static func originColors() -> [UIColor] {
         [.red, .green, .blue]
     }
