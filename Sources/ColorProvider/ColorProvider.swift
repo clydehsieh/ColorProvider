@@ -20,4 +20,9 @@ public struct ColorProvider {
     public static func yellow() -> UIColor {
         .yellow
     }
+    
+    /// after 2.0.0
+    public static func gray()  -> UIColor {
+        .gray
+    }
 }
