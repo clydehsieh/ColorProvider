@@ -7,7 +7,7 @@ public struct ColorProvider {
     }
     
     /// before 1.0.0
-    static func red() -> UIColor {
+    public static func red() -> UIColor {
         .red
     }
     
