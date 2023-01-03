@@ -1,4 +1,6 @@
 import UIKit
+import PlayingCard
+import Reachability
 
 public struct ColorProvider {
     public private(set) var text = "Hello, World!"
@@ -29,5 +31,14 @@ public struct ColorProvider {
     /// 3.0.0
     public static func originColors() -> [UIColor] {
         [.red, .green, .blue]
+    }
+    
+    public static func getCard() -> PlayingCard {
+        return PlayingCard(rank: .eight, suit: .spades)
+    }
+    
+    public static func isConnectionAvailable() -> Bool {
+        let reachability = try! Reachability()
+        return reachability.connection != .unavailable
     }
 }
