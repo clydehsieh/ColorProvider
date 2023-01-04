@@ -27,6 +27,11 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>ColorProvider_ColorProvider</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 	</dict>
 </dict>
 </plist>

@@ -41,4 +41,9 @@ public struct ColorProvider {
         let reachability = try! Reachability()
         return reachability.connection != .unavailable
     }
+    
+    public static func grayWithOpacity() -> UIColor {
+        let color = Self.gray()
+        return OpacityHelper.basic(input: color)
+    }
 }
