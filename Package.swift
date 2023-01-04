@@ -18,7 +18,7 @@ let package = Package(
         // Dependencies declare other packages that this package depends on.
          .package(
             url: "https://github.com/apple/example-package-playingcard.git",
-            from: "3.0.0"),
+            exact: "3.0.5"),
          .package(
             url: "https://github.com/ashleymills/Reachability.swift.git",
             from: "5.0.0")
