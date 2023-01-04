@@ -1,5 +1,11 @@
 # ColorProvider
 
+# v4.0.2
+## Add OpacityHelper
+
+# v4.0.1
+## Add assets
+
 # v4.0.0
 ## Add dependencies
 
