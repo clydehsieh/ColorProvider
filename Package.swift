@@ -12,8 +12,10 @@ let package = Package(
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "ColorProvider",
-            targets: ["ColorProvider"]),
-        .library(name: "SomeProvider", targets: ["NumberProvider"])
+            targets: ["ColorProvider", "NumberProvider"]),
+        .library(
+            name: "SomeProvider",
+            targets: ["NumberProvider"])
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
