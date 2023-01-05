@@ -9,6 +9,9 @@ import Foundation
 import Reachability
 
 public struct SomeProvider {
+    public init() {
+    }
+    
     public func get123() -> Int {
         return 123
     }
