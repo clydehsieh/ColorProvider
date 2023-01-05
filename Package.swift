@@ -13,6 +13,7 @@ let package = Package(
         .library(
             name: "ColorProvider",
             targets: ["ColorProvider"]),
+        .library(name: "SomeProvider", targets: ["NumberProvider"])
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -31,6 +32,13 @@ let package = Package(
                     name: "PlayingCard",
                     package: "example-package-playingcard"
                 ),
+                .product(
+                    name: "Reachability",
+                    package: "Reachability.swift")
+            ]),
+        .target(
+            name: "NumberProvider",
+            dependencies: [
                 .product(
                     name: "Reachability",
                     package: "Reachability.swift")
