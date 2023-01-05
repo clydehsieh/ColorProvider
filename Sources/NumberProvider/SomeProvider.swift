@@ -8,7 +8,11 @@
 import Foundation
 import Reachability
 
-public struct ColorProvider {
+public struct SomeProvider {
+    public func get123() -> Int {
+        return 123
+    }
+    
     public func getHello() -> String {
         return "hello"
     }
