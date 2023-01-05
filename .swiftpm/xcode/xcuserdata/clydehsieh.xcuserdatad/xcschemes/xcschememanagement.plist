@@ -47,6 +47,11 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>SomeProvider</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 	</dict>
 </dict>
 </plist>
